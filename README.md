@@ -1,5 +1,5 @@
 # Email templates for Dev Letters
 
-Uses MJML.
+Uses [MJML](https://mjml.io/documentation/).
 
 https://mjml.io/try-it-live/

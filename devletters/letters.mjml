@@ -17,6 +17,10 @@
         .head-image {
           display: none;
         }
+        /* less padding on mobile */
+        .dl-content {
+          padding: 8px 8px !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -32,8 +36,9 @@
     <!-- content -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-size="14px">
-          Body goes here
+        <mj-text font-size="14px" css-class="dl-content" color="#3a3a3a" line-height="16px">
+          <p>Body goes here</p>
+          <p>more body</p>
         </mj-text>
         <!-- static -->
         <!-- notes: providing link white color because gmail shows blue -->
