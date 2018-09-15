@@ -1,0 +1,22 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "Email templates by Avi Aryan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aviaryan/email-templates.git"
+  },
+  "author": "Avi Aryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviaryan/email-templates/issues"
+  },
+  "homepage": "https://github.com/aviaryan/email-templates#readme",
+  "dependencies": {
+    "mjml": "^4.2.0-beta.2"
+  }
+}
