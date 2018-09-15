@@ -24,22 +24,19 @@
         <mj-text font-family="BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif" font-size="16px">
           Body goes here
         </mj-text>
-      </mj-column>
-    </mj-section>
-
-    <!-- rate and other footer -->
-    <mj-section background-color="#ffffff">
-      <mj-column>
+        <!-- static -->
+        <!-- notes: providing link white color because gmail shows blue -->
+        <mj-spacer height="32px" />
         <mj-divider border-width="1px" border-color="#c6c6c6"></mj-divider>
         <mj-text color="#a9a9a9">
           How much did you like this letter?
         </mj-text>
         <mj-text>
-          <a href="https://devletters.com/rated?v=1" class="rate" style="background-color: #a9a9a9;">1</a>
-          <a href="https://devletters.com/rated?v=2" class="rate" style="background-color: #898989;">2</a>
-          <a href="https://devletters.com/rated?v=3" class="rate" style="background-color: #696969;">3</a>
-          <a href="https://devletters.com/rated?v=4" class="rate" style="background-color: #494949;">4</a>
-          <a href="https://devletters.com/rated?v=5" class="rate" style="background-color: #292929;">5</a>
+          <a href="https://devletters.com/rated?v=1" class="rate" style="background-color: #a9a9a9; color: white;">1</a>
+          <a href="https://devletters.com/rated?v=2" class="rate" style="background-color: #898989; color: white;">2</a>
+          <a href="https://devletters.com/rated?v=3" class="rate" style="background-color: #696969; color: white;">3</a>
+          <a href="https://devletters.com/rated?v=4" class="rate" style="background-color: #494949; color: white;">4</a>
+          <a href="https://devletters.com/rated?v=5" class="rate" style="background-color: #292929; color: white;">5</a>
         </mj-text>
         <mj-text color="#a9a9a9">
           Need help with anything? or want to request a topic? Hit reply.
