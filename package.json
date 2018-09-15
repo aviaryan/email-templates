@@ -4,7 +4,8 @@
   "description": "Email templates by Avi Aryan",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"dl": "mjml devletters/letters.mjml -o outputs/devletters.html"
   },
   "repository": {
     "type": "git",
