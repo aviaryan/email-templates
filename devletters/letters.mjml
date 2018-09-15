@@ -14,7 +14,7 @@
     <!-- dev letters logo -->
     <mj-section>
       <mj-column>
-        <mj-image width="64px" src="https://devletters.com/img/brand.svg"></mj-image>
+        <mj-image width="64px" src="https://s3.us-east-2.amazonaws.com/devletters/assets/brand.png"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -65,7 +65,7 @@
 		  	src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png">
           </mj-social-element>
           <mj-social-element name="instagram" href="https://devletters.com" background-color="#46b38f"
-		  	src="https://s3.us-east-2.amazonaws.com/devletters/assets/internet.svg">
+		  	src="https://s3.us-east-2.amazonaws.com/devletters/assets/internet.png">
           </mj-social-element>
         </mj-social>
       </mj-column>
