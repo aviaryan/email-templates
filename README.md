@@ -1,8 +1,11 @@
-# Email templates for Dev Letters
+# Email templates for my projects
 
-Uses [MJML](https://mjml.io/documentation/).
+Uses [MJML](https://mjml.io/documentation/). See a demo of MJML [here](https://mjml.io/try-it-live/).
 
-https://mjml.io/try-it-live/
+
+## Why open source this?
+
+Because it can help someone.
 
 
 ## Building
