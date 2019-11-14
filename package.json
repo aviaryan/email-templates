@@ -4,7 +4,8 @@
   "description": "Email templates by Avi Aryan",
   "main": "index.js",
   "scripts": {
-    "build": "mjml devletters/letters.mjml -o outputs/devletters.html"
+    "start": "npm run build && open outputs/newsletter.html",
+    "build": "mjml aviaryan.com/newsletter.mjml -o outputs/newsletter.html"
   },
   "repository": {
     "type": "git",
