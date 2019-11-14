@@ -11,5 +11,5 @@ Because it can help someone.
 ## Building
 
 ```sh
-npm run dl
+npm run build
 ```

@@ -4,7 +4,7 @@
   "description": "Email templates by Avi Aryan",
   "main": "index.js",
   "scripts": {
-    "dl": "mjml devletters/letters.mjml -o outputs/devletters.html"
+    "build": "mjml devletters/letters.mjml -o outputs/devletters.html"
   },
   "repository": {
     "type": "git",
