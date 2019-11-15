@@ -36,9 +36,15 @@
     <!-- content -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="16px">
+        <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="18px">
           <p>Body goes here</p>
-          <p>more body</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
         </mj-text>
         <!-- static -->
         <!-- notes: providing link white color because gmail shows blue -->
@@ -68,6 +74,9 @@
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <!-- hidden rewards url
+    <a href="{{RewardsURL}}">EmailOctopus</a> -->
 
     <!-- social -->
 	  <!-- using a hack, instagram type social buttons use normal links -->
