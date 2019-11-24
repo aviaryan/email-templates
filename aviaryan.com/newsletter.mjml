@@ -13,7 +13,7 @@
         height: auto;
       }
       /* media queries at the end */
-      @media all and (max-width: 768px) {
+      @media all and (max-width: 650px) {
         .head-image {
           display: none;
         }
@@ -24,7 +24,7 @@
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#f0f0f0" width="768px">
+  <mj-body background-color="#f0f0f0" width="650px">
 
     <!-- dev letters logo -->
     <mj-section css-class="head-image">
@@ -36,7 +36,7 @@
     <!-- content -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="18px">
+        <mj-text font-size="16px" css-class="dl-content" color="#1a1a1a" line-height="18px">
           <p>Body goes here</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
@@ -70,7 +70,7 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          You received this email because you subscribed to our list. You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9; text-decoration:underline;" target="_blank">unsubscribe</a> at any time.
+          You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9; text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
         </mj-text>
       </mj-column>
     </mj-section>
