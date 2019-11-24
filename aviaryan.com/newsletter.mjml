@@ -36,7 +36,7 @@
     <!-- content -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text font-size="16px" css-class="dl-content" color="#1a1a1a" line-height="18px">
+        <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="18px">
           <p>Body goes here</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
