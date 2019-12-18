@@ -1,0 +1,90 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .rate {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+      }
+      /* email overflows without this */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      /* media queries at the end */
+      @media all and (max-width: 600px) {
+        /* less padding on mobile */
+        .dl-content {
+          padding: 8px 8px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="100%">
+
+    <!-- content -->
+    <mj-section full-width="full-width" text-align="left">
+      <mj-column width="750px">
+        <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="18px">
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque ligula pharetra, feugiat taciti nullam quisque aptent potenti pulvinar nisl aliquet tortor id, class metus in phasellus molestie conubia morbi nibh netus. Etiam fusce erat habitasse vel nisl torquent magna et scelerisque pulvinar, class luctus feugiat vestibulum aliquet augue venenatis tempus fermentum, sociosqu facilisis vivamus elementum velit senectus gravida netus primis. Erat posuere sit primis sed tempor praesent ut, taciti etiam congue vulputate aenean neque, pulvinar venenatis imperdiet proin diam enim.</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+          <p>Body goes here</p>
+        </mj-text>
+        <!-- static -->
+        <!-- notes: providing link white color because gmail shows blue -->
+        <mj-spacer height="32px" />
+        <mj-divider border-width="1px" border-color="#c6c6c6"></mj-divider>
+        <mj-text color="#a9a9a9">
+          How much did you like this letter?
+        </mj-text>
+        <mj-text>
+          <a href="https://aviaryan.com/letters/rated?v=1" class="rate" style="background-color: #a9a9a9; color: white;">1</a>
+          <a href="https://aviaryan.com/letters/rated?v=2" class="rate" style="background-color: #898989; color: white;">2</a>
+          <a href="https://aviaryan.com/letters/rated?v=3" class="rate" style="background-color: #696969; color: white;">3</a>
+          <a href="https://aviaryan.com/letters/rated?v=4" class="rate" style="background-color: #494949; color: white;">4</a>
+          <a href="https://aviaryan.com/letters/rated?v=5" class="rate" style="background-color: #292929; color: white;">5</a>
+        </mj-text>
+        <mj-text color="#a9a9a9">
+          Need help with anything? or want to request a topic? Hit reply.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- unsub -->
+    <mj-section full-width="full-width">
+      <mj-column>
+        <mj-text>
+          You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9; text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- hidden rewards url
+    <a href="{{RewardsURL}}">EmailOctopus</a> -->
+
+    <!-- social -->
+	  <!-- using a hack, instagram type social buttons use normal links -->
+    <mj-section full-width="full-width">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="instagram" href="https://twitter.com/aviaryan123" background-color="#369be9"
+		  	src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://www.linkedin.com/in/aviaryan/" background-color="#2062a4"
+		  	src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png">
+          </mj-social-element>
+          <mj-social-element name="instagram" href="https://aviaryan.com" background-color="#46b38f"
+		  	src="https://s3.us-east-2.amazonaws.com/devletters/assets/internet.png">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
