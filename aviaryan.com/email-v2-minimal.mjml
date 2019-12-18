@@ -27,7 +27,7 @@
     <mj-section full-width="full-width" text-align="left">
       <mj-column width="750px">
         <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="18px">
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit neque ligula pharetra, feugiat taciti nullam quisque aptent potenti pulvinar nisl aliquet tortor id, class metus in phasellus molestie conubia morbi nibh netus. Etiam fusce erat habitasse vel nisl torquent magna et scelerisque pulvinar, class luctus feugiat vestibulum aliquet augue venenatis tempus fermentum, sociosqu facilisis vivamus elementum velit senectus gravida netus primis. Erat posuere sit primis sed tempor praesent ut, taciti etiam congue vulputate aenean neque, pulvinar venenatis imperdiet proin diam enim.</p>
+          <p>XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
@@ -38,7 +38,7 @@
         </mj-text>
         <!-- static -->
         <!-- notes: providing link white color because gmail shows blue -->
-        <mj-spacer height="32px" />
+        <mj-spacer height="24px" />
         <mj-divider border-width="1px" border-color="#c6c6c6"></mj-divider>
         <mj-text color="#a9a9a9">
           How much did you like this letter?
@@ -56,22 +56,17 @@
       </mj-column>
     </mj-section>
 
-    <!-- unsub -->
-    <mj-section full-width="full-width">
-      <mj-column>
-        <mj-text>
-          You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9; text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
-        </mj-text>
-      </mj-column>
-    </mj-section>
-
     <!-- hidden rewards url
     <a href="{{RewardsURL}}">EmailOctopus</a> -->
 
-    <!-- social -->
-	  <!-- using a hack, instagram type social buttons use normal links -->
-    <mj-section full-width="full-width">
+    <mj-section text-align="center">
       <mj-column>
+        <!-- unsub -->
+        <mj-text align="center">
+          You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9; text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
+        </mj-text>
+        <!-- social -->
+	      <!-- using a hack, instagram type social buttons use normal links -->
         <mj-social font-size="15px" icon-size="30px" mode="horizontal">
           <mj-social-element name="instagram" href="https://twitter.com/aviaryan123" background-color="#369be9"
 		  	src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png">
