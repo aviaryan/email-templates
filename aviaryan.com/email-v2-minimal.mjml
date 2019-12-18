@@ -12,11 +12,15 @@
         max-width: 100%;
         height: auto;
       }
+      .body {
+        width: 100%;
+        max-width: 750px;
+      }
       /* media queries at the end */
       @media all and (max-width: 600px) {
         /* less padding on mobile */
-        .dl-content {
-          padding: 8px 8px !important;
+        .letter-content {
+          padding: 12px 12px !important;
         }
       }
     </mj-style>
@@ -25,8 +29,8 @@
 
     <!-- content -->
     <mj-section full-width="full-width" text-align="left">
-      <mj-column width="750px">
-        <mj-text font-size="16px" css-class="dl-content" color="#2a2a2a" line-height="18px">
+      <mj-column css-class="body">
+        <mj-text font-size="16px" css-class="letter-content" color="#2a2a2a" line-height="18px">
           <p>XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
