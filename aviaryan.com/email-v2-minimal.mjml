@@ -1,5 +1,8 @@
 <mjml>
   <mj-head>
+    <mj-attributes>
+      <mj-all font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'" />
+    </mj-attributes>
     <mj-style>
       /* email overflows without this */
       img {
@@ -10,21 +13,14 @@
         width: 100%;
         max-width: 750px;
       }
-      /* media queries at the end */
-      @media all and (max-width: 600px) {
-        /* less padding on mobile */
-        .letter-content {
-          padding: 12px 12px !important;
-        }
-      }
     </mj-style>
   </mj-head>
   <mj-body width="100%">
 
     <!-- content -->
-    <mj-section full-width="full-width" text-align="left">
+    <mj-section full-width="full-width" text-align="left" padding="5px 0">
       <mj-column css-class="body">
-        <mj-text font-size="15px" line-height="17px" css-class="letter-content">
+        <mj-text font-size="15px" line-height="17px" padding="6px 8px">
           <p>XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
@@ -37,8 +33,8 @@
         <!-- static -->
         <!-- notes: providing link white color because gmail shows blue -->
         <mj-spacer height="24px" />
-        <mj-divider border-width="1px" border-color="#c6c6c6"></mj-divider>
-        <mj-text color="#a9a9a9">
+        <mj-divider border-width="1px" border-color="#c6c6c6" padding="6px 8px"></mj-divider>
+        <mj-text color="#a9a9a9" padding="6px 8px">
           Have suggestions or need help with anything? Hit reply.
         </mj-text>
       </mj-column>
@@ -50,7 +46,7 @@
     <mj-section text-align="center">
       <mj-column>
         <!-- unsub -->
-        <mj-text align="center">
+        <mj-text align="center" padding="6px 8px">
           You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
         </mj-text>
       </mj-column>
