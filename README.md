@@ -12,6 +12,7 @@ Because it can help someone.
 npm run start
 ```
 
-## Notes
+## Changelog
 
-The old template at `devletters/letters.mjml` was copied to `aviaryan.com/newsletter.mjml` since it is now my personal newsletter. Therefore `devletters/*.mjml` is also excluded in the build.
+- The old template at `devletters/letters.mjml` was copied to `aviaryan.com/email-v1-centered.mjml` since it is now my personal newsletter.
+- Only the template I am currently using is included in the build scripts.
