@@ -26,7 +26,7 @@
     <!-- content -->
     <mj-section full-width="full-width" text-align="left">
       <mj-column width="750px">
-        <mj-text font-size="16px" css-class="dl-content" color="#3a3a3a" line-height="18px">
+        <mj-text font-size="16px" css-class="dl-content" color="#2a2a2a" line-height="18px">
           <p>XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
@@ -63,21 +63,8 @@
       <mj-column>
         <!-- unsub -->
         <mj-text align="center">
-          You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="color:#a9a9a9; text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
+          You received this email because you subscribed to my list. You can <a href="{{UnsubscribeURL}}" style="text-decoration:underline;" target="_blank">unsubscribe</a> anytime.
         </mj-text>
-        <!-- social -->
-	      <!-- using a hack, instagram type social buttons use normal links -->
-        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-          <mj-social-element name="instagram" href="https://twitter.com/aviaryan123" background-color="#369be9"
-		  	src="https://www.mailjet.com/images/theme/v1/icons/ico-social/twitter.png">
-          </mj-social-element>
-          <mj-social-element name="instagram" href="https://www.linkedin.com/in/aviaryan/" background-color="#2062a4"
-		  	src="https://www.mailjet.com/images/theme/v1/icons/ico-social/linkedin.png">
-          </mj-social-element>
-          <mj-social-element name="instagram" href="https://aviaryan.com" background-color="#46b38f"
-		  	src="https://s3.us-east-2.amazonaws.com/devletters/assets/internet.png">
-          </mj-social-element>
-        </mj-social>
       </mj-column>
     </mj-section>
 
