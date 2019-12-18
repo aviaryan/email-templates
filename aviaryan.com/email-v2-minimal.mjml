@@ -13,6 +13,24 @@
         width: 100%;
         max-width: 650px;
       }
+      /** heading spacing **/
+      h2 {
+        padding-top: 15px;
+      }
+      /** better formatting for code and stop overflow **/
+      pre {
+        margin: 5px 0;
+        padding: 5px;
+        border: 1px solid gray;
+      }
+      pre > code {
+        max-width: 100%;
+        overflow-y: scroll;
+        white-space: pre-wrap;
+        word-break: keep-all;
+        /** smaller than normal **/
+        font-size: 14px;
+      }
       /* media queries at the end */
       @media all and (max-width: 600px) {
         /* less top padding on mobile */
