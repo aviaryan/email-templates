@@ -43,10 +43,11 @@
   <mj-body width="100%">
 
     <!-- content -->
-    <mj-section full-width="full-width" text-align="left" padding="4px 0">
+    <mj-section full-width="full-width" text-align="center" padding="4px 0">
       <mj-column css-class="body">
-        <mj-text font-size="15px" line-height="17px" padding="8px 8px" css-class="letter-content">
-          <p>XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        <mj-text font-size="16px" line-height="24px" padding="8px 8px" css-class="letter-content">
+          <p>XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+          XYZ is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
           <p>Body goes here</p>
