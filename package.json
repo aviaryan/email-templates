@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/aviaryan/email-templates#readme",
   "dependencies": {
-    "mjml": "^4.5.1"
+    "mjml": "^4.6.3"
   }
 }
